@@ -1,5 +1,5 @@
 import json
-
+#oi
 def primeira_pista():
     f=open('pistas.json',)
     data=json.load(f)
