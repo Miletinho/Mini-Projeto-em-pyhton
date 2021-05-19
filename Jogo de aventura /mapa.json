@@ -1,0 +1,20 @@
+{
+    "Aeroporto": ["Banco", "Cemitério", 0],
+    "Banco": ["Cemitério", "Cinema", "Aeroporto", 0],
+    "Cemitério": ["Tribunal", "Scotland Yard", "Banco", "Aeroporto", 0],
+    "Cinema": ["Hotel", "Porto", "Banco", 0],
+    "Tribunal": ["Cemitério", "Scotland Yard", 0],
+    "Scotland Yard": ["Cemitério", "Tribunal", 0],
+    "Porto": ["Tribunal", "Hospital", "Correios", 0],
+    "Hospital": ["Cinema", "Chaveiro", "Parque", "Porto", 0], 
+    "Hotel": ["Cinema", "Biblioteca", 0],
+    "Biblioteca": ["Hotel", "Chaveiro", "Banca de Jornal", 0],
+    "Chaveiro": ["Hospital", "Biblioteca", "Farmácia", 0],
+    "Banca de Jornal": [ "Biblioteca", "Parque", 0],
+    "Parque": ["Hospital", "Banca de Jornal", "Supermercado", "Farmácia", 0],
+    "Farmácia": ["Chaveiro", "Correios", "Parque", 0],
+    "Correios": ["Porto", "Farmácia", "Bar", 0],
+    "Supermercado": ["Parque", "Bar", "Estação de Trem", 0],
+    "Bar": ["Correios", "Supermercado", "Estação de Trem", 0],
+    "Estação de Trem": ["Bar", "Supermercado", 0]
+}
