@@ -36,9 +36,9 @@ def clear():
         os.system("clear")
 
 def ganhou():
-    print('Parabéns!!!! Você resolveu o mistério com louvor!')
+    print("\033[93m Parabéns!!!! Você resolveu o mistério com louvor! \n \033[m")
     print(e.read())
-    input("Você poderá jogar novamente! Estamos preparando tudo...")
+    input("\033[93m Você poderá jogar novamente! Estamos preparando tudo... \033[m")
     time.sleep(5)
     jogar()
     
